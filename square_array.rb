@@ -1,6 +1,9 @@
+def square_array(array)
 
-square_array = [1,2,3]
-square_array.each do |num|
-  text = num**2
-  puts text
+ new_array = []
+
+ array.each do |integer|
+  new_array << integer ** 2
+ end
+ return new_array
 end
